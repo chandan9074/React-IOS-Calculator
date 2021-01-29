@@ -1,0 +1,174 @@
+.screen {
+  background-color: rgb(37, 68, 58);
+  grid-template-rows: repeat(1fr);
+  width: auto;
+  padding: 10px;
+  color: aliceblue;
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  text-align: right;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  font-size: 6vw;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1.5fr 1fr 1fr 1fr 1fr 1fr;
+  height: 100vh;
+  grid-template-areas:
+    "scrn scrn scrn scrn"
+    "ac pm per del"
+    "seven eight nine div"
+    "four five six mul"
+    "one two three minus"
+    "zero point equal plus";
+
+  /* "scrn scrn scrn scrn"
+    "eight nine ac div"
+    "six seven del mul"
+    "four five pm minus"
+    "two three per plus"
+    "zero one point equal"; */
+}
+
+.division_img {
+  width: 40px;
+  height: 40px;
+}
+
+.delete_img {
+  width: 60px;
+  height: 60px;
+}
+
+.buttons_style {
+  font-size: 50px;
+  font-weight: bold;
+  background-color: rgb(221, 231, 241);
+  border-radius: 30px;
+  outline: none;
+  border-color: black;
+}
+
+.scrn {
+  grid-area: scrn;
+}
+
+.b_del {
+  grid-area: del;
+  background-color: cyan;
+}
+
+.b_ac {
+  grid-area: ac;
+  background-color: cyan;
+}
+
+.b_p_m {
+  grid-area: pm;
+  background-color: cyan;
+}
+
+.b_per {
+  grid-area: per;
+  background-color: cyan;
+}
+
+.b_div {
+  grid-area: div;
+  background-color: cyan;
+}
+
+.b_seven {
+  grid-area: seven;
+  background-color: rgb(10, 46, 34);
+  color: aliceblue;
+}
+
+.b_eight {
+  grid-area: eight;
+  background-color: rgb(10, 46, 34);
+  color: aliceblue;
+}
+
+.b_nine {
+  grid-area: nine;
+  background-color: rgb(10, 46, 34);
+  color: aliceblue;
+}
+
+.b_mul {
+  grid-area: mul;
+  background-color: cyan;
+}
+
+.b_four {
+  grid-area: four;
+  background-color: rgb(10, 46, 34);
+  color: aliceblue;
+}
+
+.b_five {
+  grid-area: five;
+  background-color: rgb(10, 46, 34);
+  color: aliceblue;
+}
+
+.b_six {
+  grid-area: six;
+  background-color: rgb(10, 46, 34);
+  color: aliceblue;
+}
+
+.b_minus {
+  grid-area: minus;
+  background-color: cyan;
+}
+
+.b_one {
+  grid-area: one;
+  background-color: rgb(10, 46, 34);
+  color: aliceblue;
+}
+
+.b_two {
+  grid-area: two;
+  background-color: rgb(10, 46, 34);
+  color: aliceblue;
+}
+
+.b_three {
+  grid-area: three;
+  background-color: rgb(10, 46, 34);
+  color: aliceblue;
+}
+
+.b_plus {
+  grid-area: plus;
+  background-color: cyan;
+}
+
+.b_zero {
+  grid-area: zero;
+  background-color: rgb(10, 46, 34);
+  color: aliceblue;
+}
+
+.b_point {
+  grid-area: point;
+  background-color: rgb(10, 46, 34);
+  color: aliceblue;
+}
+
+.b_equal {
+  grid-area: equal;
+  background-color: cyan;
+}
